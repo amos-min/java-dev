@@ -1,13 +1,17 @@
-package com.example.emptystart;
+package com.example.kafkabase;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EmptyStartApplication {
+public class KafkaBaseApplication {
+
+
 
     public static void main(String[] args) {
-        SpringApplication.run(EmptyStartApplication.class, args);
+        SpringApplication.run(KafkaBaseApplication.class, args);
     }
+
+
 
 }
