@@ -6,7 +6,7 @@ services:
     restart: always
     environment:
       TZ: Asia/Shanghai
-      POSTGRES_USER: postgres
+      POSTGRES_USER:
       POSTGRES_PASSWORD: 123456
       POSTGRES_DB: postgres
     ports:
