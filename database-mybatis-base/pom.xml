@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.example</groupId>
-    <artifactId>database</artifactId>
+    <artifactId>database-mybatis-base</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>database</name>
-    <description>database</description>
+    <name>database-mybatis-base</name>
+    <description>database-mybatis-base</description>
 
     <properties>
         <java.version>21</java.version>
@@ -44,6 +44,17 @@
             <artifactId>mybatis</artifactId>
             <version>3.5.6</version>
         </dependency>
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>3.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>

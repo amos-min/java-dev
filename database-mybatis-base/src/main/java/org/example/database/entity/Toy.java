@@ -3,8 +3,8 @@ package org.example.database.entity;
 import lombok.Data;
 
 @Data
-public class Student {
-    private int no;
+public class Toy {
+    private int id;
+    private int studentId;
     private String name;
-    private int age;
 }
