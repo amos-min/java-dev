@@ -11,6 +11,7 @@
 
   <modules>
     <module>database-mybatis-base</module>
+    <module>sharding-sphere-jdbc-base</module>
   </modules>
 
 
