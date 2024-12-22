@@ -19,9 +19,7 @@ class ShardingSphereBaseApplicationTests {
     @Test
     void testInsert(){
         for (int i = 0; i < 10; i++) {
-            tOrder tOrder = new tOrder();
-            tOrder.setUserId(1L);
-            orderMapper.insert(tOrder);
+            orderMapper.insert(1L);
         }
     }
 
