@@ -5,10 +5,11 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 
 import java.util.Date;
+import java.util.Objects;
 
 @Data
 @Document(indexName = "article")
-public class Article {
+public class Article  {
 
     // 注意id字段是必须的，可以不写注解@Id。
     @Id
@@ -65,5 +66,18 @@ public class Article {
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Article article = (Article) o;
+        return Objects.equals(id, article.id) && Objects.equals(title, article.title) && Objects.equals(content, article.content) && Objects.equals(userId, article.userId) && Objects.equals(createTime, article.createTime);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, title, content, userId, createTime);
+    }
+
 
 }
