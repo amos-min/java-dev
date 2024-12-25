@@ -4,10 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EmptyStartApplication {
+public class SpringExpandApplication {
+
 
     public static void main(String[] args) {
-        SpringApplication.run(EmptyStartApplication.class, args);
+        SpringApplication.run(SpringExpandApplication.class, args);
     }
 
 }
