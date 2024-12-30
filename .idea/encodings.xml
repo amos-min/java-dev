@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/database-es-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/database-mongodb-base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/database-mybatis-base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/database-redis-base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/database-redis-redisson/src/main/java" charset="UTF-8" />
