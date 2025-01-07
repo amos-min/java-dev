@@ -1,0 +1,9 @@
+package com.demo.webfluxdatabse.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class CrudController {
+
+
+}
