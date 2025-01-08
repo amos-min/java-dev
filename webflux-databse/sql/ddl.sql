@@ -14,6 +14,10 @@ create table public.student
 alter table public.student
     owner to postgres;
 
+CREATE TABLE IF NOT EXISTS tutorial (id SERIAL PRIMARY KEY, title VARCHAR(255), description VARCHAR(255), published BOOLEAN);
+alter table public.tutorial
+    owner to postgres;
+
 INSERT INTO public.student (name,age)
 VALUES ('John',12),
        ('Jane',1),
