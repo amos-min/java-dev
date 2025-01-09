@@ -1,6 +1,5 @@
-package netty;
+package com.demo.nettybase.example.timecost;
 
-import com.demo.nettybase.example.timecost.ServerHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
